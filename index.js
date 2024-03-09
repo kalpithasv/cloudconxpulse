@@ -65,15 +65,15 @@ var swiper = new Swiper(".BlogSlider", {
 });
 
 // For Theme Toggle
-let ThemeToggle = document.querySelector(".ThemeToggle");
-let ToggleBtn = document.querySelector(".ToggleBtn");
+//let ThemeToggle = document.querySelector(".ThemeToggle");
+//let ToggleBtn = document.querySelector(".ToggleBtn");
 
-ToggleBtn.onclick = () => {
-  ThemeToggle.classList.toggle("active");
-  LoginForm.classList.remove("active");
-  SearchForm.classList.remove("active");
-  Navbar.classList.remove("active");
-};
+//ToggleBtn.onclick = () => {
+ // ThemeToggle.classList.toggle("active");
+ // LoginForm.classList.remove("active");
+ // SearchForm.classList.remove("active");
+ // Navbar.classList.remove("active");
+//};
 
 // Main Logic To Toggle The Theme
 document.querySelectorAll(".ThemeToggle .theme-btn").forEach((btn) => {
