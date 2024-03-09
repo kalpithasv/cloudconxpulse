@@ -73,15 +73,15 @@ var swiper = new Swiper(".BlogSlider", {
  // LoginForm.classList.remove("active");
  // SearchForm.classList.remove("active");
  // Navbar.classList.remove("active");
-//};
+//                                                                                                                                                                                          };
 
 // Main Logic To Toggle The Theme
 document.querySelectorAll(".ThemeToggle .theme-btn").forEach((btn) => {
   btn.onclick = () => {
     let color = btn.style.background;
     document.querySelector(":root").style.setProperty("--main", color);
-  };
-});
+  };                                                                                                                                                                                                                                                          
+});                                                                                                                                                                                                                                                                                                                                                                   
 (function () {
 
   var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
